@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "registry_version": "2026.11.17",
+  "updated_at": "2026-11-17",
+  "scope": {
+    "vendors": [
+      "anthropic",
+      "openai",
+      "google",
+      "mistral"
+    ],
+    "models": "commercial models served by the vendor API; open-weight models only when the vendor also serves them"
+  },
+  "stale_after_days": 10,
+  "files": [
+    "models.json",
+    "benchmarks.json",
+    "results.json",
+    "guidance.json"
+  ]
+}

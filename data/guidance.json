@@ -1,0 +1,89 @@
+[
+  {
+    "id": "anthropic-start-with-opus-5-5",
+    "vendor": "anthropic",
+    "models": [
+      "claude-opus-5-5",
+      "claude-fable-5-2"
+    ],
+    "statement": "Start with Claude Opus 5.5 for most workloads. Use Claude Fable 5.2 for demanding reasoning and long-horizon agentic work, or when Opus 5.5 at higher effort still falls short in your evals.",
+    "source": {
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+      "type": "vendor",
+      "title": "Claude models overview"
+    },
+    "verified_at": "2026-11-17"
+  },
+  {
+    "id": "anthropic-fable-5-2-effort",
+    "vendor": "anthropic",
+    "models": [
+      "claude-fable-5-2"
+    ],
+    "statement": "Default effort is high. Use medium for interactive coding, chat and everyday knowledge work; xhigh only for the hardest long-running work where a gain has been measured; max to measure the ceiling. Lower the effort level instead of asking the model to think less. Re-run the effort sweep instead of carrying over settings from other models.",
+    "source": {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2",
+      "type": "vendor",
+      "title": "Prompting Claude Fable 5.2"
+    },
+    "verified_at": "2026-11-17"
+  },
+  {
+    "id": "anthropic-fable-5-2-subagents",
+    "vendor": "anthropic",
+    "models": [
+      "claude-fable-5-2"
+    ],
+    "statement": "Subagents can drive much of a session's cost; check which model they use. Remove standing delegation instructions that are no longer needed.",
+    "source": {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2",
+      "type": "vendor",
+      "title": "Prompting Claude Fable 5.2"
+    },
+    "verified_at": "2026-11-17"
+  },
+  {
+    "id": "google-argon-vs-carbon",
+    "vendor": "google",
+    "models": [
+      "gemini-4-argon",
+      "gemini-4-carbon"
+    ],
+    "statement": "Gemini 4 Argon remains the better fit for most software engineering and knowledge work. Gemini 4 Carbon uses more tokens to explore hard problems such as complex debugging and open-ended research.",
+    "source": {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "type": "vendor",
+      "title": "Google: Gemini 4 Carbon is now available"
+    },
+    "verified_at": "2026-11-17"
+  },
+  {
+    "id": "google-hydrogen-daily-driver",
+    "vendor": "google",
+    "models": [
+      "gemini-4-hydrogen"
+    ],
+    "statement": "Gemini 4 Hydrogen is the fast, cost-efficient daily driver for agentic workflows and everyday tasks.",
+    "source": {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "type": "vendor",
+      "title": "Google: Introducing Gemini 4 Hydrogen"
+    },
+    "verified_at": "2026-11-17"
+  },
+  {
+    "id": "openai-astra-vs-sol",
+    "vendor": "openai",
+    "models": [
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+    ],
+    "statement": "GPT-6.2 Astra is for difficult professional projects; GPT-6.2 Sol is the efficient model for everyday work.",
+    "source": {
+      "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/",
+      "type": "secondary",
+      "title": "Unite.AI: OpenAI releases GPT-6.2 Astra and Sol"
+    },
+    "verified_at": "2026-11-17"
+  }
+]

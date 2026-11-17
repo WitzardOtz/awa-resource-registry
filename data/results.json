@@ -1,0 +1,402 @@
+[
+  {
+    "model_id": "claude-fable-5-2",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 65,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 26.54"
+  },
+  {
+    "model_id": "gemini-4-carbon",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 60,
+    "unit": "index",
+    "config": {
+      "effort": "high",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 5.48"
+  },
+  {
+    "model_id": "claude-opus-5-5",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 59,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 10.04"
+  },
+  {
+    "model_id": "gpt-6-astra",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 57,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 6.24"
+  },
+  {
+    "model_id": "gpt-6.1-sol",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 55,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 1.27"
+  },
+  {
+    "model_id": "claude-sonnet-5-5",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 55,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 10.02"
+  },
+  {
+    "model_id": "gemini-4-hydrogen",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 54,
+    "unit": "index",
+    "config": {
+      "effort": "xhigh",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 3.16"
+  },
+  {
+    "model_id": "gpt-6.1-terra",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 51,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 0.96"
+  },
+  {
+    "model_id": "gemini-4-argon",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 50,
+    "unit": "index",
+    "config": {
+      "effort": "high",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 4.97"
+  },
+  {
+    "model_id": "claude-haiku-5-5",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 36,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 0.41"
+  },
+  {
+    "model_id": "mistral-large-4",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 26,
+    "unit": "index",
+    "config": {
+      "effort": "high",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Cost per task USD 2.06"
+  },
+  {
+    "model_id": "claude-opus-5-5",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 65.8,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Claude Code"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.1
+  },
+  {
+    "model_id": "claude-fable-5-2",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 65.8,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Claude Code"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 2.8
+  },
+  {
+    "model_id": "gemini-4-carbon",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 64.5,
+    "unit": "percent",
+    "config": {
+      "effort": "high",
+      "harness": "Antigravity CLI"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.2
+  },
+  {
+    "model_id": "claude-sonnet-5-5",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 63.9,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Claude Code"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.0
+  },
+  {
+    "model_id": "gpt-6.1-sol",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 60.9,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.0
+  },
+  {
+    "model_id": "gpt-6-astra",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 60.3,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 2.8
+  },
+  {
+    "model_id": "gemini-4-hydrogen",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 56.4,
+    "unit": "percent",
+    "config": {
+      "effort": "high",
+      "harness": "Antigravity CLI"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.0
+  },
+  {
+    "model_id": "gemini-4-argon",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 55.5,
+    "unit": "percent",
+    "config": {
+      "effort": "high",
+      "harness": "Antigravity CLI"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 2.8
+  },
+  {
+    "model_id": "gpt-6.1-terra",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 53.3,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.1
+  },
+  {
+    "model_id": "claude-haiku-5-5",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 40.0,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Claude Code"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.6
+  },
+  {
+    "model_id": "mistral-large-4",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 27.6,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Claude Code"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "ci_95": 3.9
+  },
+  {
+    "model_id": "claude-opus-5-5",
+    "benchmark_id": "remote-labor-index",
+    "benchmark_version": "v1",
+    "score": 21.25,
+    "unit": "percent",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://labs.scale.com/leaderboard/rli",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Automation rate"
+  },
+  {
+    "model_id": "gpt-6-astra",
+    "benchmark_id": "remote-labor-index",
+    "benchmark_version": "v1",
+    "score": 20.83,
+    "unit": "percent",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://labs.scale.com/leaderboard/rli",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Automation rate"
+  },
+  {
+    "model_id": "gemini-4-argon",
+    "benchmark_id": "remote-labor-index",
+    "benchmark_version": "v1",
+    "score": 17.08,
+    "unit": "percent",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://labs.scale.com/leaderboard/rli",
+    "measured_at": null,
+    "retrieved_at": "2026-11-17",
+    "note": "Automation rate"
+  }
+]
