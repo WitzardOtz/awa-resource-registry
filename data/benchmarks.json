@@ -11,7 +11,7 @@
     ],
     "url": "https://artificialanalysis.ai/leaderboards/models",
     "caveats": "Composite: hides which kind of task a model is good at. Scores are per effort setting.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "terminal-bench",
@@ -25,7 +25,7 @@
     ],
     "url": "https://www.tbench.ai/leaderboard",
     "caveats": "Each row pairs a model with an agent harness (Claude Code, Codex, Antigravity CLI...): it measures the pair, not the model alone. The board does not show who submitted each row.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "remote-labor-index",
@@ -39,7 +39,7 @@
     ],
     "url": "https://labs.scale.com/leaderboard/rli",
     "caveats": "Rows carry no dates; the newest models may be missing.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "swe-bench-pro",
@@ -53,7 +53,7 @@
     ],
     "url": "https://labs.scale.com/leaderboard/swe_bench_pro",
     "caveats": "At the last check the official board listed no model released after early 2026. Do not copy vendor-reported scores as if they were board results.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "swe-rebench",
@@ -67,7 +67,7 @@
     ],
     "url": "https://swe-rebench.com/",
     "caveats": "Task window 2026-05-15 to 2026-07-01 at the last check: no model released after June 2026 is listed yet.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "arena-text",
@@ -79,7 +79,7 @@
     "versions": [],
     "url": "https://arena.ai/leaderboard/text",
     "caveats": "Measures preference, not correctness. Model names were not machine-readable at the last check: record scores only when the model is identified unambiguously.",
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "swe-bench-verified",

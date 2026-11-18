@@ -12,7 +12,7 @@
       "type": "vendor",
       "title": "Claude models overview"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "anthropic-fable-5-2-effort",
@@ -26,7 +26,7 @@
       "type": "vendor",
       "title": "Prompting Claude Fable 5.2"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "anthropic-fable-5-2-subagents",
@@ -40,7 +40,7 @@
       "type": "vendor",
       "title": "Prompting Claude Fable 5.2"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "google-argon-vs-carbon",
@@ -55,7 +55,7 @@
       "type": "vendor",
       "title": "Google: Gemini 4 Carbon is now available"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "google-hydrogen-daily-driver",
@@ -69,7 +69,7 @@
       "type": "vendor",
       "title": "Google: Introducing Gemini 4 Hydrogen"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   },
   {
     "id": "openai-astra-vs-sol",
@@ -78,12 +78,12 @@
       "gpt-6.2-astra",
       "gpt-6.2-sol"
     ],
-    "statement": "GPT-6.2 Astra is for difficult professional projects; GPT-6.2 Sol is the efficient model for everyday work.",
+    "statement": "GPT-6.2 Astra is a frontier model for the hardest projects; GPT-6.2 Sol is an efficient, versatile model for everyday work. Vendor: on FrontierCode 2.0, Sol nearly matches Astra on merge-ready changes at about one-fifth the cost.",
     "source": {
-      "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/",
-      "type": "secondary",
-      "title": "Unite.AI: OpenAI releases GPT-6.2 Astra and Sol"
+      "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531",
+      "type": "vendor",
+      "title": "OpenAI Developer Community announcement: GPT-6.2 Astra and Sol are now available"
     },
-    "verified_at": "2026-11-17"
+    "verified_at": "2026-11-18"
   }
 ]

@@ -12,7 +12,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 26.54"
   },
   {
@@ -28,8 +28,8 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
-    "note": "Cost per task USD 5.48"
+    "retrieved_at": "2026-11-18",
+    "note": "Cost per task USD 7.76"
   },
   {
     "model_id": "claude-opus-5-5",
@@ -44,7 +44,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 10.04"
   },
   {
@@ -92,7 +92,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 10.02"
   },
   {
@@ -108,7 +108,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 3.16"
   },
   {
@@ -124,7 +124,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 0.96"
   },
   {
@@ -140,7 +140,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 4.97"
   },
   {
@@ -156,7 +156,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 0.41"
   },
   {
@@ -172,8 +172,72 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Cost per task USD 2.06"
+  },
+  {
+    "model_id": "gpt-6.2-astra",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 62,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "note": "Cost per task USD 4.00"
+  },
+  {
+    "model_id": "gpt-6.2-sol",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 57,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "note": "Cost per task USD 1.01"
+  },
+  {
+    "model_id": "gpt-6-luna",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 28,
+    "unit": "index",
+    "config": {
+      "effort": "max",
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "note": "Cost per task USD 0.15"
+  },
+  {
+    "model_id": "mistral-small-4",
+    "benchmark_id": "aa-intelligence-index",
+    "benchmark_version": "v5",
+    "score": 4,
+    "unit": "index",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://artificialanalysis.ai/leaderboards/models",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "note": "Cost per task USD 0.0399. Board labels the row as reasoning, with no effort level."
   },
   {
     "model_id": "claude-opus-5-5",
@@ -188,7 +252,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.1
   },
   {
@@ -204,7 +268,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 2.8
   },
   {
@@ -220,7 +284,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.2
   },
   {
@@ -236,7 +300,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.0
   },
   {
@@ -252,7 +316,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.0
   },
   {
@@ -268,7 +332,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 2.8
   },
   {
@@ -284,7 +348,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.0
   },
   {
@@ -300,7 +364,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 2.8
   },
   {
@@ -316,7 +380,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.1
   },
   {
@@ -332,7 +396,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.6
   },
   {
@@ -348,8 +412,56 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "ci_95": 3.9
+  },
+  {
+    "model_id": "gpt-6.2-astra",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 62.1,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "ci_95": 2.3
+  },
+  {
+    "model_id": "gpt-6.2-sol",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 61.5,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "ci_95": 2.8
+  },
+  {
+    "model_id": "gpt-6-luna",
+    "benchmark_id": "terminal-bench",
+    "benchmark_version": "4.1",
+    "score": 15.2,
+    "unit": "percent",
+    "config": {
+      "effort": "max",
+      "harness": "Codex"
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://www.tbench.ai/leaderboard",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
+    "ci_95": 2.7
   },
   {
     "model_id": "claude-opus-5-5",
@@ -364,7 +476,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Automation rate"
   },
   {
@@ -380,7 +492,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
     "note": "Automation rate"
   },
   {
@@ -396,7 +508,23 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-17",
+    "retrieved_at": "2026-11-18",
+    "note": "Automation rate"
+  },
+  {
+    "model_id": "claude-fable-5-2",
+    "benchmark_id": "remote-labor-index",
+    "benchmark_version": "v1",
+    "score": 41.25,
+    "unit": "percent",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://labs.scale.com/leaderboard/rli",
+    "measured_at": null,
+    "retrieved_at": "2026-11-18",
     "note": "Automation rate"
   }
 ]

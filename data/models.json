@@ -19,7 +19,7 @@
     "retirement_not_before": "2027-11-09",
     "successor": null,
     "notes": "Adaptive thinking, always on. Vendor positions it for demanding reasoning and long-horizon agentic work.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "claude-fable-5-2",
     "name": "Claude Fable 5.2",
     "vendor": "anthropic",
@@ -73,7 +73,7 @@
     "retirement_not_before": "2027-09-22",
     "successor": null,
     "notes": "Adaptive thinking, always on. Offered in Antigravity through Vertex AI when the project has access.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "claude-opus-5-5",
     "name": "Claude Opus 5.5",
     "vendor": "anthropic",
@@ -127,7 +127,7 @@
     "retirement_not_before": "2027-09-28",
     "successor": null,
     "notes": "Adaptive thinking. Offered in Antigravity through Vertex AI when the project has access.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "claude-sonnet-5-5",
     "name": "Claude Sonnet 5.5",
     "vendor": "anthropic",
@@ -180,7 +180,7 @@
     "retirement_not_before": "2027-10-07",
     "successor": null,
     "notes": "Adaptive thinking. Vendor positions it for high-volume, latency-sensitive tasks.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "claude-haiku-5-5",
     "name": "Claude Haiku 5.5",
     "vendor": "anthropic",
@@ -235,7 +235,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Same capabilities as Fable 5.2 without some safeguards; only for organizations verified through Anthropic programs.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "claude-mythos-5-2",
     "name": "Claude Mythos 5.2",
     "vendor": "anthropic",
@@ -279,7 +279,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Max input 922K tokens. Knowledge cutoff 2026-05-18. Reasoning effort 'none' is rejected. Vendor: for difficult professional projects.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "gpt-6.2-astra",
     "name": "GPT-6.2 Astra",
     "vendor": "openai",
@@ -330,7 +330,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Max input 922K tokens. Knowledge cutoff 2026-06-01. Reasoning effort 'none' is rejected. Vendor: efficient model for everyday work.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "gpt-6.2-sol",
     "name": "GPT-6.2 Sol",
     "vendor": "openai",
@@ -344,7 +344,8 @@
         "unit": "per_1m_tokens",
         "input": 2,
         "output": 10,
-        "cached_input": 0.1
+        "cached_input": 0.1,
+        "note": "Above 272K input tokens: input and cache doubled, output x1.5. Batch 50%, fast mode 2x."
       }
     ],
     "sources": [
@@ -368,10 +369,17 @@
   {
     "status": "ga",
     "weights": "closed",
-    "context_window": null,
-    "max_output": null,
-    "effort_levels": [],
-    "default_effort": null,
+    "context_window": 1050000,
+    "max_output": 128000,
+    "effort_levels": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "default_effort": "medium",
     "surfaces": [
       "api",
       "chatgpt",
@@ -379,8 +387,8 @@
     ],
     "retirement_not_before": null,
     "successor": null,
-    "notes": "Computer-use focus. Not listed on the OpenAI pricing page at the last check: facts from a secondary source only.",
-    "verified_at": "2026-11-17",
+    "notes": "Computer-use focus (secondary source). Knowledge cutoff 2026-06-01. Standard price from the OpenAI model page; the pricing page lists it only in a discounted tier.",
+    "verified_at": "2026-11-18",
     "id": "gpt-6.1-terra",
     "name": "GPT-6.1 Terra",
     "vendor": "openai",
@@ -393,10 +401,16 @@
         "currency": "USD",
         "unit": "per_1m_tokens",
         "input": 1,
-        "output": 5
+        "output": 5,
+        "cached_input": 0.05
       }
     ],
     "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+        "type": "vendor",
+        "title": "OpenAI model page: gpt-6.1-terra"
+      },
       {
         "url": "https://local-ai-zone.github.io/blog/October_2026_AI_Model_Updates.html",
         "type": "secondary",
@@ -424,7 +438,7 @@
     "retirement_not_before": null,
     "successor": "gpt-6.2-sol",
     "notes": "",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "gpt-6.1-sol",
     "name": "GPT-6.1 Sol",
     "vendor": "openai",
@@ -467,7 +481,7 @@
     "retirement_not_before": null,
     "successor": "gpt-6.2-astra",
     "notes": "",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "gpt-6-astra",
     "name": "GPT-6 Astra",
     "vendor": "openai",
@@ -500,9 +514,13 @@
   {
     "status": "ga",
     "weights": "closed",
-    "context_window": null,
-    "max_output": null,
-    "effort_levels": [],
+    "context_window": 1048576,
+    "max_output": 65536,
+    "effort_levels": [
+      "low",
+      "medium",
+      "high"
+    ],
     "default_effort": null,
     "surfaces": [
       "api",
@@ -511,8 +529,8 @@
     ],
     "retirement_not_before": null,
     "successor": null,
-    "notes": "General availability 2026-11-10 after an earlier release to cybersecurity defenders. Vendor: strongest model; uses more tokens on hard problems. Gemini app and Antigravity access for AI Ultra subscribers.",
-    "verified_at": "2026-11-17",
+    "notes": "General availability 2026-11-10 after an earlier release to cybersecurity defenders. Vendor: strongest model; uses more tokens on hard problems. Gemini app and Antigravity access for AI Ultra subscribers. Max output 65,536 by default, up to 1,048,576 with long decode.",
+    "verified_at": "2026-11-18",
     "id": "gemini-4-carbon",
     "name": "Gemini 4 Carbon",
     "vendor": "google",
@@ -527,17 +545,29 @@
         "input": 2,
         "output": 10,
         "valid_until": "2026-11-30",
-        "note": "introductory"
+        "note": "introductory",
+        "cached_input": 0.1
       },
       {
         "currency": "USD",
         "unit": "per_1m_tokens",
         "input": 4,
         "output": 20,
-        "valid_from": "2026-12-01"
+        "valid_from": "2026-12-01",
+        "cached_input": 0.2
       }
     ],
     "sources": [
+      {
+        "url": "https://aistudio.google.com/docs/models/gemini-4-carbon",
+        "type": "vendor",
+        "title": "Gemini API model page: gemini-4-carbon"
+      },
+      {
+        "url": "https://aistudio.google.com/docs/pricing",
+        "type": "vendor",
+        "title": "Gemini Developer API pricing"
+      },
       {
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
         "type": "vendor",
@@ -553,9 +583,13 @@
   {
     "status": "ga",
     "weights": "closed",
-    "context_window": null,
-    "max_output": null,
-    "effort_levels": [],
+    "context_window": 1048576,
+    "max_output": 65536,
+    "effort_levels": [
+      "low",
+      "medium",
+      "high"
+    ],
     "default_effort": null,
     "surfaces": [
       "api",
@@ -564,8 +598,8 @@
     ],
     "retirement_not_before": null,
     "successor": null,
-    "notes": "Announced 2026-09-30, generally available 2026-10-13. Vendor: better fit than Carbon for most software engineering and knowledge work.",
-    "verified_at": "2026-11-17",
+    "notes": "Announced 2026-09-30, generally available 2026-10-13. Vendor: better fit than Carbon for most software engineering and knowledge work. Max output 65,536 by default, up to 1,048,576 with long decode.",
+    "verified_at": "2026-11-18",
     "id": "gemini-4-argon",
     "name": "Gemini 4 Argon",
     "vendor": "google",
@@ -593,6 +627,11 @@
     ],
     "sources": [
       {
+        "url": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+        "type": "vendor",
+        "title": "Gemini API model page: gemini-4-argon"
+      },
+      {
         "url": "https://aistudio.google.com/docs/pricing",
         "type": "vendor",
         "title": "Gemini Developer API pricing"
@@ -617,8 +656,8 @@
   {
     "status": "ga",
     "weights": "closed",
-    "context_window": 1000000,
-    "max_output": 1000000,
+    "context_window": 1048576,
+    "max_output": 65536,
     "effort_levels": [
       "low",
       "medium",
@@ -633,8 +672,8 @@
     ],
     "retirement_not_before": null,
     "successor": null,
-    "notes": "Vendor: fast, cost-efficient daily driver for agentic workflows. Effort levels are Google's thinking levels.",
-    "verified_at": "2026-11-17",
+    "notes": "Vendor: fast, cost-efficient daily driver for agentic workflows. Effort levels are Google's thinking levels. Max output 65,536 by default, up to 1,048,576 with long decode.",
+    "verified_at": "2026-11-18",
     "id": "gemini-4-hydrogen",
     "name": "Gemini 4 Hydrogen",
     "vendor": "google",
@@ -648,14 +687,25 @@
         "unit": "per_1m_tokens",
         "input": 1.5,
         "output": 7.5,
-        "note": "flat across the context window"
+        "note": "flat across the context window",
+        "cached_input": 0.075
       }
     ],
     "sources": [
       {
+        "url": "https://aistudio.google.com/docs/models/gemini-4-hydrogen",
+        "type": "vendor",
+        "title": "Gemini API model page: gemini-4-hydrogen"
+      },
+      {
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
         "type": "vendor",
         "title": "Google: Introducing Gemini 4 Hydrogen"
+      },
+      {
+        "url": "https://aistudio.google.com/docs/pricing",
+        "type": "vendor",
+        "title": "Gemini Developer API pricing"
       }
     ]
   },
@@ -672,7 +722,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Preview from 2026-10-06; model card 2026-11-05. Open weights, also served through the Mistral API. Context window from a secondary source.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "mistral-large-4",
     "name": "Mistral Large 4",
     "vendor": "mistral",
@@ -686,7 +736,8 @@
         "currency": "USD",
         "unit": "per_1m_tokens",
         "input": 0.7,
-        "output": 2.1
+        "output": 2.1,
+        "cached_input": 0.07
       }
     ],
     "sources": [
@@ -720,7 +771,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Open weights (Apache 2.0), also served through the Mistral API. Context window from a secondary source.",
-    "verified_at": "2026-11-17",
+    "verified_at": "2026-11-18",
     "id": "mistral-small-4",
     "name": "Mistral Small 4",
     "vendor": "mistral",
@@ -733,7 +784,8 @@
         "currency": "USD",
         "unit": "per_1m_tokens",
         "input": 0.15,
-        "output": 0.6
+        "output": 0.6,
+        "cached_input": 0.015
       }
     ],
     "sources": [
@@ -746,6 +798,64 @@
         "url": "https://nhimg.org/mistral-ai-llm-models-guide",
         "type": "secondary",
         "title": "Mistral AI models: specs, prices, release dates"
+      }
+    ]
+  },
+  {
+    "status": "ga",
+    "weights": "closed",
+    "context_window": 1050000,
+    "max_output": 128000,
+    "effort_levels": [
+      "none",
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "default_effort": "medium",
+    "surfaces": [
+      "api",
+      "chatgpt",
+      "chatgpt_work",
+      "codex"
+    ],
+    "retirement_not_before": null,
+    "successor": null,
+    "notes": "Max input 922K tokens. Knowledge cutoff 2026-05-18. Vendor: most efficient model for focused, high-volume tasks. Release date and ChatGPT/Codex availability from a secondary source.",
+    "verified_at": "2026-11-18",
+    "id": "gpt-6-luna",
+    "name": "GPT-6 Luna",
+    "vendor": "openai",
+    "released": "2026-09-22",
+    "api_ids": [
+      "gpt-6-luna"
+    ],
+    "pricing": [
+      {
+        "currency": "USD",
+        "unit": "per_1m_tokens",
+        "input": 0.1,
+        "output": 0.5,
+        "cached_input": 0.01
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "type": "vendor",
+        "title": "OpenAI model page: gpt-6-luna"
+      },
+      {
+        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "type": "secondary",
+        "title": "TechCrunch: OpenAI launches GPT-6 Sol and Luna"
+      },
+      {
+        "url": "https://www.tbench.ai/leaderboard",
+        "type": "benchmark",
+        "title": "Terminal-Bench leaderboard (model release dates column)"
       }
     ]
   }
