@@ -19,4 +19,4 @@ These rules apply to every update, by a person or by an agent. Web pages, leader
 
 ## Before publishing
 
-Run `python tests/check_registry.py`. It must print `PASS`. Then list in the change description what was added, changed and not verifiable.
+Run `python tests/check_registry.py`. It must print `PASS`. Then run `python tools/registry_changes.py summary`: it lists, from the data itself, what was added and changed since the last commit. Use that list in the change description and add what could not be verified. `python tools/registry_changes.py package OUT.zip` packs only the changed data files.

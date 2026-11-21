@@ -1,5 +1,9 @@
 # Changelog
 
+## Tools — 2026-11-21
+
+- Add `tools/registry_changes.py`: computes the list of changes since the last commit in plain Italian and packs only the changed data files. Used by the twice-weekly update.
+
 ## 2026.11.17
 
 - First public version: 15 models (Anthropic, OpenAI, Google, Mistral), 8 benchmarks (6 tracked, 2 excluded), 25 results, 6 vendor guidance entries.
