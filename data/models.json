@@ -19,7 +19,7 @@
     "retirement_not_before": "2027-11-09",
     "successor": null,
     "notes": "Adaptive thinking, always on. Vendor positions it for demanding reasoning and long-horizon agentic work.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "claude-fable-5-2",
     "name": "Claude Fable 5.2",
     "vendor": "anthropic",
@@ -73,7 +73,7 @@
     "retirement_not_before": "2027-09-22",
     "successor": null,
     "notes": "Adaptive thinking, always on. Offered in Antigravity through Vertex AI when the project has access.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "claude-opus-5-5",
     "name": "Claude Opus 5.5",
     "vendor": "anthropic",
@@ -127,7 +127,7 @@
     "retirement_not_before": "2027-09-28",
     "successor": null,
     "notes": "Adaptive thinking. Offered in Antigravity through Vertex AI when the project has access.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "claude-sonnet-5-5",
     "name": "Claude Sonnet 5.5",
     "vendor": "anthropic",
@@ -180,7 +180,7 @@
     "retirement_not_before": "2027-10-07",
     "successor": null,
     "notes": "Adaptive thinking. Vendor positions it for high-volume, latency-sensitive tasks.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "claude-haiku-5-5",
     "name": "Claude Haiku 5.5",
     "vendor": "anthropic",
@@ -235,7 +235,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Same capabilities as Fable 5.2 without some safeguards; only for organizations verified through Anthropic programs.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "claude-mythos-5-2",
     "name": "Claude Mythos 5.2",
     "vendor": "anthropic",
@@ -279,7 +279,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Max input 922K tokens. Knowledge cutoff 2026-05-18. Reasoning effort 'none' is rejected. Vendor: for difficult professional projects.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gpt-6.2-astra",
     "name": "GPT-6.2 Astra",
     "vendor": "openai",
@@ -330,7 +330,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Max input 922K tokens. Knowledge cutoff 2026-06-01. Reasoning effort 'none' is rejected. Vendor: efficient model for everyday work.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gpt-6.2-sol",
     "name": "GPT-6.2 Sol",
     "vendor": "openai",
@@ -388,7 +388,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Computer-use focus (secondary source). Knowledge cutoff 2026-06-01. Standard price from the OpenAI model page; the pricing page lists it only in a discounted tier.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gpt-6.1-terra",
     "name": "GPT-6.1 Terra",
     "vendor": "openai",
@@ -530,7 +530,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "General availability 2026-11-10 after an earlier release to cybersecurity defenders. Vendor: strongest model; uses more tokens on hard problems. Gemini app and Antigravity access for AI Ultra subscribers. Max output 65,536 by default, up to 1,048,576 with long decode.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gemini-4-carbon",
     "name": "Gemini 4 Carbon",
     "vendor": "google",
@@ -599,7 +599,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Announced 2026-09-30, generally available 2026-10-13. Vendor: better fit than Carbon for most software engineering and knowledge work. Max output 65,536 by default, up to 1,048,576 with long decode.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gemini-4-argon",
     "name": "Gemini 4 Argon",
     "vendor": "google",
@@ -673,7 +673,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Vendor: fast, cost-efficient daily driver for agentic workflows. Effort levels are Google's thinking levels. Max output 65,536 by default, up to 1,048,576 with long decode.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gemini-4-hydrogen",
     "name": "Gemini 4 Hydrogen",
     "vendor": "google",
@@ -722,7 +722,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Preview from 2026-10-06; model card 2026-11-05. Open weights, also served through the Mistral API. Context window from a secondary source.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "mistral-large-4",
     "name": "Mistral Large 4",
     "vendor": "mistral",
@@ -771,7 +771,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Open weights (Apache 2.0), also served through the Mistral API. Context window from a secondary source.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "mistral-small-4",
     "name": "Mistral Small 4",
     "vendor": "mistral",
@@ -824,7 +824,7 @@
     "retirement_not_before": null,
     "successor": null,
     "notes": "Max input 922K tokens. Knowledge cutoff 2026-05-18. Vendor: most efficient model for focused, high-volume tasks. Release date and ChatGPT/Codex availability from a secondary source.",
-    "verified_at": "2026-11-18",
+    "verified_at": "2026-11-21",
     "id": "gpt-6-luna",
     "name": "GPT-6 Luna",
     "vendor": "openai",
@@ -856,6 +856,66 @@
         "url": "https://www.tbench.ai/leaderboard",
         "type": "benchmark",
         "title": "Terminal-Bench leaderboard (model release dates column)"
+      }
+    ]
+  },
+  {
+    "status": "ga",
+    "weights": "closed",
+    "context_window": 1000000,
+    "max_output": null,
+    "effort_levels": [
+      "low",
+      "medium",
+      "high",
+      "xhigh"
+    ],
+    "default_effort": "high",
+    "surfaces": [
+      "api",
+      "gemini_app",
+      "antigravity"
+    ],
+    "retirement_not_before": null,
+    "successor": null,
+    "notes": "Released 2026-11-18. Vendor: balances depth and efficiency, between Carbon and Hydrogen. Model card: 1M combined input-output context, up to 64K default output, up to 1M with long decode. Status label not stated on pages read; listed with standard paid prices on the Gemini API pricing page.",
+    "verified_at": "2026-11-21",
+    "id": "gemini-4-neon",
+    "name": "Gemini 4 Neon",
+    "vendor": "google",
+    "released": "2026-11-18",
+    "api_ids": [
+      "gemini-4-neon"
+    ],
+    "pricing": [
+      {
+        "currency": "USD",
+        "unit": "per_1m_tokens",
+        "input": 3,
+        "output": 15,
+        "cached_input": 0.15
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://aistudio.google.com/docs/pricing",
+        "type": "vendor",
+        "title": "Gemini Developer API pricing"
+      },
+      {
+        "url": "https://deepmind.google/models/model-cards/gemini-4-neon/",
+        "type": "vendor",
+        "title": "Gemini 4 Neon model card"
+      },
+      {
+        "url": "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity",
+        "type": "vendor",
+        "title": "Antigravity: Gemini 4 Neon in Google Antigravity"
+      },
+      {
+        "url": "https://antigravity.google/docs/changelog/",
+        "type": "vendor",
+        "title": "Antigravity changelog"
       }
     ]
   }

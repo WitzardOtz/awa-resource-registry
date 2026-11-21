@@ -12,7 +12,7 @@
       "type": "vendor",
       "title": "Claude models overview"
     },
-    "verified_at": "2026-11-18"
+    "verified_at": "2026-11-21"
   },
   {
     "id": "anthropic-fable-5-2-effort",
@@ -26,7 +26,7 @@
       "type": "vendor",
       "title": "Prompting Claude Fable 5.2"
     },
-    "verified_at": "2026-11-18"
+    "verified_at": "2026-11-21"
   },
   {
     "id": "anthropic-fable-5-2-subagents",
@@ -85,5 +85,21 @@
       "title": "OpenAI Developer Community announcement: GPT-6.2 Astra and Sol are now available"
     },
     "verified_at": "2026-11-18"
+  },
+  {
+    "id": "google-neon-between-carbon-hydrogen",
+    "vendor": "google",
+    "models": [
+      "gemini-4-neon",
+      "gemini-4-carbon",
+      "gemini-4-hydrogen"
+    ],
+    "statement": "Gemini 4 Neon sits between Gemini 4 Carbon, for the deepest long-horizon projects, and Gemini 4 Hydrogen, for rapid everyday execution. In Antigravity, Orchestrator can plan with Neon and implement with Hydrogen.",
+    "source": {
+      "url": "https://antigravity.google/blog/gemini-4-neon-in-google-antigravity",
+      "type": "vendor",
+      "title": "Antigravity: Gemini 4 Neon in Google Antigravity"
+    },
+    "verified_at": "2026-11-21"
   }
 ]

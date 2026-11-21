@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "registry_version": "2026.11.18",
-  "updated_at": "2026-11-18",
+  "registry_version": "2026.11.21",
+  "updated_at": "2026-11-21",
   "scope": {
     "vendors": [
       "anthropic",
