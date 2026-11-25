@@ -12,7 +12,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 26.54"
   },
   {
@@ -28,7 +28,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 7.76"
   },
   {
@@ -44,7 +44,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 10.04"
   },
   {
@@ -92,7 +92,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 10.02"
   },
   {
@@ -108,7 +108,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 3.16"
   },
   {
@@ -124,14 +124,14 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 0.96"
   },
   {
     "model_id": "gemini-4-argon",
     "benchmark_id": "aa-intelligence-index",
     "benchmark_version": "v5",
-    "score": 50,
+    "score": 51,
     "unit": "index",
     "config": {
       "effort": "high",
@@ -140,14 +140,14 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
-    "note": "Cost per task USD 9.95"
+    "retrieved_at": "2026-11-25",
+    "note": null
   },
   {
     "model_id": "claude-haiku-5-5",
     "benchmark_id": "aa-intelligence-index",
     "benchmark_version": "v5",
-    "score": 36,
+    "score": 37,
     "unit": "index",
     "config": {
       "effort": "max",
@@ -156,8 +156,8 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
-    "note": "Cost per task USD 0.41"
+    "retrieved_at": "2026-11-25",
+    "note": null
   },
   {
     "model_id": "mistral-large-4",
@@ -172,7 +172,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 2.06"
   },
   {
@@ -188,7 +188,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 4.00"
   },
   {
@@ -204,7 +204,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 1.01"
   },
   {
@@ -220,7 +220,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 0.15"
   },
   {
@@ -236,7 +236,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Cost per task USD 0.0399. Board labels the row as reasoning, with no effort level."
   },
   {
@@ -252,7 +252,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.1
   },
   {
@@ -268,7 +268,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.8
   },
   {
@@ -284,7 +284,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.2
   },
   {
@@ -300,7 +300,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.0
   },
   {
@@ -316,7 +316,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.0
   },
   {
@@ -332,7 +332,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.8
   },
   {
@@ -348,7 +348,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.0
   },
   {
@@ -364,7 +364,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.8
   },
   {
@@ -380,7 +380,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.1
   },
   {
@@ -396,7 +396,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.6
   },
   {
@@ -412,7 +412,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 3.9
   },
   {
@@ -428,7 +428,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.3
   },
   {
@@ -444,7 +444,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.8
   },
   {
@@ -460,7 +460,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.7
   },
   {
@@ -476,7 +476,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Automation rate"
   },
   {
@@ -492,7 +492,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Automation rate"
   },
   {
@@ -508,7 +508,7 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Automation rate"
   },
   {
@@ -524,14 +524,14 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://labs.scale.com/leaderboard/rli",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "note": "Automation rate"
   },
   {
     "model_id": "gemini-4-neon",
     "benchmark_id": "aa-intelligence-index",
     "benchmark_version": "v5",
-    "score": 61,
+    "score": 62,
     "unit": "index",
     "config": {
       "effort": "xhigh",
@@ -540,8 +540,8 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://artificialanalysis.ai/leaderboards/models",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
-    "note": "Cost per task USD 6.44"
+    "retrieved_at": "2026-11-25",
+    "note": null
   },
   {
     "model_id": "gemini-4-neon",
@@ -556,7 +556,23 @@
     "reported_by": "benchmark_maintainer",
     "source_url": "https://www.tbench.ai/leaderboard",
     "measured_at": null,
-    "retrieved_at": "2026-11-21",
+    "retrieved_at": "2026-11-25",
     "ci_95": 2.8
+  },
+  {
+    "model_id": "gemini-4-carbon",
+    "benchmark_id": "remote-labor-index",
+    "benchmark_version": "v1",
+    "score": 20.0,
+    "unit": "percent",
+    "config": {
+      "effort": null,
+      "harness": null
+    },
+    "reported_by": "benchmark_maintainer",
+    "source_url": "https://labs.scale.com/leaderboard/rli",
+    "measured_at": null,
+    "retrieved_at": "2026-11-25",
+    "note": "Automation rate"
   }
 ]
